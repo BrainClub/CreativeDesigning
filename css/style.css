@@ -402,8 +402,6 @@ footer ul{
     width: 42%;
     height: 200px;
 }
-<input type="text" class="form-control placeholder" id="question" placeholder="Example &quot;What hairstyle suits me?" name="questiontitle" required="">
-<input type="text" class="form-control" id="question" placeholder="Example &quot;What hairstyle suits me?" name="questiontitle" required="">
 
 footer ul li{
     position: relative;
