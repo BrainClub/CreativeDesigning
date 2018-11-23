@@ -1,0 +1,453 @@
+
+html{
+    min-width: 1440px;
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+
+}
+
+.content{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+h1{
+    padding: 40px;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+h2 {
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 0.4em;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+
+}
+h4{
+    font-size: 35px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.4em;
+    padding: 110px 0;
+    margin: 0;
+}
+h5{
+}
+h6{
+}
+a{
+    text-decoration: none;
+    color: white;
+   display: block;
+}
+p{
+    font-size: 33px;
+    color: #8a9399;
+}
+
+header{
+    color: white;
+    text-align: center;
+
+
+}
+.backheader{
+    background: url("../img/back/BackTitle.png") 0 0 no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    display: inline-block;
+    background:  url("../img/landing-page_03.png") center center no-repeat;
+    width: 145px;
+    height: 160px;
+}
+.backForMenu{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    background-color: #8a9399;
+}
+menu{
+    margin: 0;
+    transform: rotate(-90deg);
+    position: fixed;
+    bottom: 50%;
+    left: -16.3em;
+    color: white;
+}
+menu ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+menu ul li a{
+    background-color: #0707077a;
+    padding: 2em;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    transition: 1.5s;
+}
+menu ul li a:hover{
+    background-color: grey;
+}
+menu ul li{
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.line{
+    border-top: 10px solid #25d8d8;
+    width: 220px;
+    margin: 20px auto;
+}
+
+.FColumn{
+
+}
+.Frow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.FcolumnEnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 980px;
+    margin: 0 auto;
+}
+.contentSpec{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.ViewMore{
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.ViewMore:hover{
+    background: #25d8d8;
+    /*color: black;*/
+}
+/*.ViewMore:after{*/
+    /*content: '';*/
+    /*display: block;*/
+    /*background:  url("../img/icon/arrow-down.png") center center no-repeat;*/
+    /*width: 145px;*/
+    /*height: 160px;*/
+/*}*/
+.arrow-down{
+    display: inline-block;
+    background:  url("../img/icon/arrow-down.png") center center no-repeat;
+    width: 145px;
+    height: 100px;
+    transition: .5s;
+}
+.arrow-down:hover{
+    position: relative;
+    top: 10px;
+    transition: .5s;
+
+}
+
+/*main*/
+main{
+    text-align: center;
+}
+
+.FAround{
+    display: flex;
+    justify-content: space-around;
+}
+.FBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.AboutStart{
+    position: relative;
+    background:  url("../img/icon/AboutStart.png") center center no-repeat;
+    width: 175px;
+    height: 175px;
+}
+.AboutStatic{
+    font-size: 70px;
+    font-weight: 900;
+    position: absolute;
+    top: -20px;
+    left: 130px;
+    text-shadow:
+            -0   -10px 6px #FFFFFF,
+            0   -10px 6px #FFFFFF,
+            -0    10px 6px #FFFFFF,
+            0    10px 6px #FFFFFF,
+            -10px -0   6px #FFFFFF,
+            10px -0   6px #FFFFFF,
+            -10px  0   6px #FFFFFF,
+            10px  0   6px #FFFFFF,
+            -1px -10px 6px #FFFFFF,
+            1px -10px 6px #FFFFFF,
+            -1px  10px 6px #FFFFFF,
+            1px  10px 6px #FFFFFF,
+            -10px -1px 6px #FFFFFF,
+            10px -1px 6px #FFFFFF,
+            -10px  1px 6px #FFFFFF,
+            10px  1px 6px #FFFFFF,
+            -2px -10px 6px #FFFFFF,
+            2px -10px 6px #FFFFFF,
+            -2px  10px 6px #FFFFFF,
+            2px  10px 6px #FFFFFF,
+            -10px -2px 6px #FFFFFF,
+            10px -2px 6px #FFFFFF,
+            -10px  2px 6px #FFFFFF,
+            10px  2px 6px #FFFFFF,
+            -3px -10px 6px #FFFFFF,
+            3px -10px 6px #FFFFFF,
+            -3px  10px 6px #FFFFFF,
+            3px  10px 6px #FFFFFF,
+            -10px -3px 6px #FFFFFF,
+            10px -3px 6px #FFFFFF,
+            -10px  3px 6px #FFFFFF,
+            10px  3px 6px #FFFFFF,
+            -4px -10px 6px #FFFFFF,
+            4px -10px 6px #FFFFFF,
+            -4px  10px 6px #FFFFFF,
+            4px  10px 6px #FFFFFF,
+            -10px -4px 6px #FFFFFF,
+            10px -4px 6px #FFFFFF,
+            -10px  4px 6px #FFFFFF,
+            10px  4px 6px #FFFFFF,
+            -5px -10px 6px #FFFFFF,
+            5px -10px 6px #FFFFFF,
+            -5px  10px 6px #FFFFFF,
+            5px  10px 6px #FFFFFF,
+            -10px -5px 6px #FFFFFF,
+            10px -5px 6px #FFFFFF,
+            -10px  5px 6px #FFFFFF,
+            10px  5px 6px #FFFFFF,
+            -6px -10px 6px #FFFFFF,
+            6px -10px 6px #FFFFFF,
+            -6px  10px 6px #FFFFFF,
+            6px  10px 6px #FFFFFF,
+            -10px -6px 6px #FFFFFF,
+            10px -6px 6px #FFFFFF,
+            -10px  6px 6px #FFFFFF,
+            10px  6px 6px #FFFFFF,
+            -7px -10px 6px #FFFFFF,
+            7px -10px 6px #FFFFFF,
+            -7px  10px 6px #FFFFFF,
+            7px  10px 6px #FFFFFF,
+            -10px -7px 6px #FFFFFF,
+            10px -7px 6px #FFFFFF,
+            -10px  7px 6px #FFFFFF,
+            10px  7px 6px #FFFFFF,
+            -8px -10px 6px #FFFFFF,
+            8px -10px 6px #FFFFFF,
+            -8px  10px 6px #FFFFFF,
+            8px  10px 6px #FFFFFF,
+            -10px -8px 6px #FFFFFF,
+            10px -8px 6px #FFFFFF,
+            -10px  8px 6px #FFFFFF,
+            10px  8px 6px #FFFFFF,
+            -9px -10px 6px #FFFFFF,
+            9px -10px 6px #FFFFFF,
+            -9px  10px 6px #FFFFFF,
+            9px  10px 6px #FFFFFF,
+            -10px -9px 6px #FFFFFF,
+            10px -9px 6px #FFFFFF,
+            -10px  9px 6px #FFFFFF,
+            10px  9px 6px #FFFFFF,
+            -10px -10px 6px #FFFFFF,
+            10px -10px 6px #FFFFFF,
+            -10px  10px 6px #FFFFFF,
+            10px  10px 6px #FFFFFF,
+            -10px -10px 6px #FFFFFF,
+            10px -10px 6px #FFFFFF,
+            -10px  10px 6px #FFFFFF,
+            10px  10px 6px #FFFFFF;
+}
+.AboutStaticText{
+    position: absolute;
+    top: 70px;
+    right: -90px;
+}
+.FAround p{
+    font-size: 21px;
+    width: 175px;
+  font-weight: 600;
+    color: black;
+}
+.backPortfolio{
+    padding: 50px 0;
+    background: #e2e1e1;
+}
+.backPortfolio a{
+    transition: 1.5s;
+    margin: 30px 14px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.backPortfolio a:hover{
+
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+}
+
+.backPortfolio img{
+    max-height: 120px;
+}
+.backPart{
+    background: #fff url("../img/back/BackPart.png") 0 0 repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+
+.sl__img{
+    margin: auto;
+    max-height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.sl__slide{
+    position: relative;
+    height: 150px;
+    justify-content: center;
+    align-self: center;
+}
+.slick-initialized .slick-slide {
+    display: flex !important;
+}
+.sl__slide a{
+    display: flex;
+    outline:none;
+}
+
+footer{
+    position: relative;
+    height: 600px;
+    background: #e2e1e1;
+    padding: 20px 0;
+}
+.fieldInput{
+    width: 25em;
+    border-radius: 10px;
+    border: 1px solid rgba(140, 140, 140, 0.38);
+    padding: 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.fieldTextarea{
+    width: 25em;
+    border-radius: 10px;
+    border: 1px solid rgba(140, 140, 140, 0.38);
+    padding: 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    resize: none;
+}
+
+footer ul{
+    position: relative;
+    background-color: #292929;
+    margin: 0;
+    height: 200px;
+    padding-left: 80px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.darkFoot{
+    position: absolute;
+    top: 191px;
+    left: 58%;
+    background-color: #292929;
+    width: 42%;
+    height: 200px;
+}
+<input type="text" class="form-control placeholder" id="question" placeholder="Example &quot;What hairstyle suits me?" name="questiontitle" required="">
+<input type="text" class="form-control" id="question" placeholder="Example &quot;What hairstyle suits me?" name="questiontitle" required="">
+
+footer ul li{
+    position: relative;
+    padding: 13px;
+    color: white;
+    border-left: 1px solid;
+}
+.iconDef{
+    position: absolute;
+    top: 15px;
+    left: -30px;
+}
+.iconContact1{
+    background: url("../img/icon/iconBehance.jpg") 0 0 no-repeat;
+    padding: 30px;
+    background-size: 100%;
+    position: absolute;
+    top: 17px;
+    left: -70px;
+}
+
+.iconContact2{
+    background: url("../img/icon/iconInsta.jpg") 0 0 no-repeat;
+    padding: 10px;
+    background-size: 100%;
+}
+.iconContact3{
+    background: url("../img/icon/iconFace.jpg") 0 0 no-repeat;
+    padding: 10px;
+    background-size: 100%;
+}
+.iconContact4{
+    background: url("../img/icon/iconMail.jpg") 0 0 no-repeat;
+    padding: 10px;
+    background-size: 100%;
+}
+footer a:hover{
+    opacity: .6;
+}
+
+.footer2{
+    position: absolute;
+    bottom: 0;
+    background-color: grey;
+    width: 100%;
+    height: 20px;
+}
