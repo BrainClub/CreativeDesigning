@@ -1,7 +1,7 @@
 
 html{
     min-width: 1440px;
-    height: 100%;
+
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -9,26 +9,56 @@ body{
 
 }
 
+.firsts{
+
+}
+.padding-126{
+    padding: 126px 0;
+}
+.seconds{
+    min-height: 752px;
+    padding: 60px 0 46px;
+    box-sizing: border-box;
+}
+.thirds{
+    padding: 21px 0;
+    height: 788px;
+    box-sizing: border-box;
+}
+.forths{
+    height: 576px;
+    box-sizing: border-box;
+}
+.sixths{
+    height: 810px;
+    box-sizing: border-box;
+}
+
 .content{
     width: 1170px;
     margin: 0 auto;
 }
 
-
+.wrapper{
+    max-width: 700vw;
+    overflow: hidden;
+}
 
 h1{
-    padding: 40px;
-    font-size: 30px;
-    letter-spacing: 0.2em;
+    padding: 47px;
+    font-size: 30.41px !important;
+    letter-spacing: 0.1em;
+    font-weight: 100;
 }
 h2 {
-    padding: 40px;
-    font-size: 30px;
+    padding: 52px;
+    font-size: 30.41px;
     font-weight: 100;
     letter-spacing: 0.4em;
 }
 h3{
-    font-size: 45px;
+    font-size: 44.32px;
+    margin: 22px 0 37px;
     text-align: center;
 
 }
@@ -36,8 +66,8 @@ h4{
     font-size: 35px;
     color: white;
     font-weight: 100;
-    letter-spacing: 0.4em;
-    padding: 110px 0;
+    letter-spacing: 0.45em;
+    padding: 153px 0 45px;
     margin: 0;
 }
 h5{
@@ -50,34 +80,36 @@ a{
    display: block;
 }
 p{
+    padding-top: 42px;
     font-size: 33px;
     color: #8a9399;
 }
 
 header{
+    position: relative;
     color: white;
     text-align: center;
 
 
 }
 .backheader{
+    padding: 168px 0 143px;
     background: url("../img/back/BackTitle.png") 0 0 no-repeat;
     width: 100%;
-    height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
 
 }
 .logo{
     display: inline-block;
-    background:  url("../img/landing-page_03.png") center center no-repeat;
+    background: url(../img/landing-page_03.png) center center no-repeat;
     width: 145px;
     height: 160px;
 }
-.backForMenu{
+.backformenu{
     position: absolute;
     top:0;
     left: 0;
@@ -88,9 +120,10 @@ header{
 menu{
     margin: 0;
     transform: rotate(-90deg);
-    position: fixed;
-    bottom: 50%;
-    left: -16.3em;
+    position: absolute;
+    bottom: 180px;
+    left: -10.9em;
+    bottom: 29.3em;
     color: white;
 }
 menu ul{
@@ -100,8 +133,9 @@ menu ul{
     align-items: center;
 }
 menu ul li a{
-    background-color: #0707077a;
-    padding: 2em;
+    font-size: 1.26em;
+    font-weight: 900;
+    padding: 1em;
     color: white;
     text-decoration: none;
     list-style-type: none;
@@ -119,20 +153,18 @@ menu ul li{
 .line{
     border-top: 10px solid #25d8d8;
     width: 220px;
-    margin: 20px auto;
+    margin: 2px auto;
 }
 
-.FColumn{
-
-}
-.Frow{
+.frow{
+    padding: 26px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-.FcolumnEnd{
+.fcolumnend{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,22 +174,25 @@ menu ul li{
     width: 980px;
     margin: 0 auto;
 }
-.contentSpec{
+.contentspec{
     width: 1300px;
     margin: 0 auto;
 }
 
-.ViewMore{
+.viewmore{
     display: inline-block;
     color: white;
-    border: 1px solid white;
+    margin: 38px 0 -4px;
+    border: 3px solid white;
     text-decoration: none;
-    padding: 10px 30px;
-    font-size: 30px;
+    padding: 15px 43px;
+    font-size: 30.41px;
+    font-weight: 500;
+    letter-spacing: 0.11em;
     box-sizing: border-box;
     transition: .5s;
 }
-.ViewMore:hover{
+.viewmore:hover{
     background: #25d8d8;
     /*color: black;*/
 }
@@ -187,21 +222,21 @@ main{
     text-align: center;
 }
 
-.FAround{
+.faround{
     display: flex;
     justify-content: space-around;
 }
-.FBetween{
+.fbetween{
     display: flex;
     justify-content: space-between;
 }
-.AboutStart{
+.aboutstart{
     position: relative;
     background:  url("../img/icon/AboutStart.png") center center no-repeat;
     width: 175px;
     height: 175px;
 }
-.AboutStatic{
+.aboutstatic{
     font-size: 70px;
     font-weight: 900;
     position: absolute;
@@ -297,28 +332,30 @@ main{
             -10px  10px 6px #FFFFFF,
             10px  10px 6px #FFFFFF;
 }
-.AboutStaticText{
+.aboutstatictext{
     position: absolute;
     top: 70px;
-    right: -90px;
+    left: 190px;
 }
-.FAround p{
+.faround p{
+    text-transform: uppercase;
+    padding-top: 6px;
     font-size: 21px;
     width: 175px;
-  font-weight: 600;
+    font-weight: 600;
     color: black;
 }
-.backPortfolio{
-    padding: 50px 0;
+.backportfolio{
+    padding: 21px;
     background: #e2e1e1;
 }
-.backPortfolio a{
+.backportfolio a{
     transition: 1.5s;
-    margin: 30px 14px;
+    margin: 31.5px 14px;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
-.backPortfolio a:hover{
+.backportfolio a:hover{
 
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
@@ -328,13 +365,12 @@ main{
 
 }
 
-.backPortfolio img{
-    max-height: 120px;
+.backportfolio img{
+    max-height: 155px;
 }
-.backPart{
+.backpart{
     background: #fff url("../img/back/BackPart.png") 0 0 repeat;
     width: 100%;
-    height: 700px;
     background-size: cover;
 }
 
@@ -362,21 +398,31 @@ main{
 
 footer{
     position: relative;
-    height: 600px;
     background: #e2e1e1;
-    padding: 20px 0;
+    padding: 35px 0;
 }
-.fieldInput{
-    width: 25em;
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapperfoot{
+    max-width: 1215px;
+    margin: 0 auto;
+    padding: 120px 0 156px;
+}
+.fieldinput{
+    width: 35em;
     border-radius: 10px;
     border: 1px solid rgba(140, 140, 140, 0.38);
-    padding: 15px;
+    padding: 21px 15px;
     margin: 5px 0;
     box-sizing: border-box;
 }
 
-.fieldTextarea{
-    width: 25em;
+.fieldtextarea{
+    width: 35em;
+    height: 9em;
     border-radius: 10px;
     border: 1px solid rgba(140, 140, 140, 0.38);
     padding: 15px;
@@ -388,54 +434,59 @@ footer{
 footer ul{
     position: relative;
     background-color: #292929;
-    margin: 0;
-    height: 200px;
-    padding-left: 80px;
+    margin: 3px;
+    margin-right: -133px;
+    height: 280px;
+    padding-left: 150px;
     text-decoration: none;
     list-style-type: none;
 }
-.darkFoot{
+.darkfoot{
     position: absolute;
-    top: 191px;
     left: 58%;
+    top: 0;
+    bottom: 0;
     background-color: #292929;
-    width: 42%;
-    height: 200px;
+    width: 200vw
 }
 
 footer ul li{
+
+    z-index: 1;
     position: relative;
-    padding: 13px;
+    padding: 35px 0px 0px 30px;
     color: white;
     border-left: 1px solid;
+    font-size: 24px;
+    font-weight: 900;
 }
-.iconDef{
+.icondef{
     position: absolute;
-    top: 15px;
-    left: -30px;
+    top: 27px;
+    left: -53px;
 }
-.iconContact1{
+.iconcontact1{
     background: url("../img/icon/iconBehance.jpg") 0 0 no-repeat;
-    padding: 30px;
+    padding: 58px;
     background-size: 100%;
     position: absolute;
-    top: 17px;
-    left: -70px;
+    top: 33px;
+    left: -137px;
 }
 
-.iconContact2{
+.iconcontact2{
     background: url("../img/icon/iconInsta.jpg") 0 0 no-repeat;
-    padding: 10px;
+    padding: 16px;
     background-size: 100%;
 }
-.iconContact3{
+.iconcontact3{
     background: url("../img/icon/iconFace.jpg") 0 0 no-repeat;
-    padding: 10px;
+    padding: 16px;
     background-size: 100%;
 }
-.iconContact4{
+.iconcontact4{
     background: url("../img/icon/iconMail.jpg") 0 0 no-repeat;
-    padding: 10px;
+    padding: 16px;
     background-size: 100%;
 }
 footer a:hover{
@@ -447,5 +498,46 @@ footer a:hover{
     bottom: 0;
     background-color: grey;
     width: 100%;
-    height: 20px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sendcontact{
+    display: inline-block;
+    color: white;
+    margin: 19px auto;
+    background-color: #25d8d8;
+    text-decoration: none;
+    padding: 13px 35px;
+    font-size: 30.41px;
+    border-radius: 10px;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+
+.slick-prev:before
+{
+    content: url("../img/landing-page_59.png");
+    position: absolute;
+    top: -10px;
+
+}
+
+.slick-next:before
+{
+    content:  url("../img/landing-page_62.png");
+    position: absolute;
+    top: -10px;
+    right: 10px;
+}
+.slick-prev:hover:before,
+.slick-next:hover:before
+{
+    opacity: 1;
 }
